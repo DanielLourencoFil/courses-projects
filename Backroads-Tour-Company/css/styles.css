@@ -395,10 +395,6 @@ About
 	}
 }
 
-/* section add to globals */
-/* title add to globals */
-/* section center add to globals */
-
 /*
 =============== 
 Services
@@ -530,6 +526,7 @@ Featured Tours
 
 .featured-photo {
 	height: 15rem;
+	-o-object-fit: cover;
 	object-fit: cover;
 }
 
@@ -593,6 +590,22 @@ Contact
 	flex-grow: 1;
 	width: 15rem;
 	max-width: 22rem;
+}
+
+.contact-form input::-webkit-input-placeholder {
+	color: var(--clr-grey-5);
+}
+
+.contact-form input::-moz-placeholder {
+	color: var(--clr-grey-5);
+}
+
+.contact-form input:-ms-input-placeholder {
+	color: var(--clr-grey-5);
+}
+
+.contact-form input::-ms-input-placeholder {
+	color: var(--clr-grey-5);
 }
 
 .contact-form input::placeholder {
