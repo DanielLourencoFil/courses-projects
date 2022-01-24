@@ -1,4 +1,5 @@
-CSS Portfolio website
+CSS Backroads Tour Company Website: Project 02
+
 This website was coded as an exercise proposed in "HTML&CSS Tutorial and Projects Course 2022 (Flexbox&Grid)" course by John Smilga.
 
 Here I preset my own version of the code developed by the instructor. I coded before the instruction and at the end made some changes and improvements based on the instruction.
@@ -6,8 +7,8 @@ Here I preset my own version of the code developed by the instructor. I coded be
 Author
 Daniel Lourenço: @DanielLourencoFil (https://github.com/DanielLourencoFil)
 
-View portfolio
+View website
 
-https://porfolio-project-case-01.netlify.app/
+https://backroads-tour-company-case-02.netlify.app/
 
 Thanks to visiting me and good coding!
