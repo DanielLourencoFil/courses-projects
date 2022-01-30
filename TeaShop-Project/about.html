@@ -7,14 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tea Station || About</title>
     <!-- font-awesome -->
-    <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
     <!-- custom css -->
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <!-- header -->
-    <header class="header">
+    <header class="header" id="header">
         <div class="banner">
             <h2>Over one hundread flavours of</h2>
             <h1>specially<br>crafted tea</h1>
@@ -24,24 +25,31 @@
     <!-- end of header -->
 
     <!-- navbar -->
-    <nav class="nav">
+    <nav class="nav" id="nav-btn"> 
         <i class="fas fa-bars"></i>
     </nav>
+
+    <!-- back to top btn -->
+    <a href="#header"><i class="far fa-arrow-alt-circle-up"
+            id="back-top-btn"></i></a>
+    <!-- end of back to top btn -->
 
     <!--  content divider -->
     <div class="content-divider"></div>
 
     <!-- NAVBAR menu -->
 
-    <!-- <nav class="nav-side">
+    <nav class="nav-side" id="navbar">
+        <p class="nav-side-close-icon" id="nav-close"><i class="fas fa-times"></i>
+        </p>
+        <div class="nav-side-menu-container">
+            <a href="index.html" class="nav-side-menu">Home</a>
+            <a href="skills.html" class="nav-side-menu">Skills</a>
+            <a href="services.html" class="nav-side-menu">Services</a>
+            <a href="products.html" class="nav-side-menu">Products</a>
+        </div>
+    </nav>
 
-        <span class="nav-side-close-icon"><i class="fas fa-times"></i></span>
-        <a href="#" class="nav-side-menu">Home</a>
-        <a href="#" class="nav-side-menu">Skills</a>
-        <a href="#" class="nav-side-menu">About</a>
-        <a href="#" class="nav-side-menu">Products</a>
-
-    </nav> -->
 
     <!-- NAVBAR menu End-->
 
@@ -54,7 +62,7 @@
             <!-- About Img -->
             <article class="about-img">
                 <div class="about-picture-container">
-                    <img src="../setup-files-html-css-tea-station-new-design/images/about-bcg.jpeg" alt="tea kettle"
+                    <img src="./images/about-bcg.jpeg" alt="tea kettle"
                         class="about-picture">
                 </div>
             </article>
@@ -86,10 +94,10 @@
 
         <a href="#" class="fab fa-instagram footer-icon"></a>
 
-        <h4 class="footer-text">&copy;2021 <span class="footer-special">tea station</span> all rights reserved</h4>
+        <h4 class="footer-text">&copy;<span class="footer-special" id="date">tea station</span> all rights reserved</h4>
 
     </footer>
-
+<script src="app.js"></script>
 </body>
 
 </html>

@@ -38,7 +38,9 @@ Global styles
 	padding: 0;
 	box-sizing: border-box;
 }
-
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: var(--ff-primary);
 	background: var(--clr-white);
@@ -199,6 +201,24 @@ NAVBAR styles
 
 /* 
 ============
+BACK TO TOP BTN styles
+============
+*/
+#back-top-btn {
+	position: fixed;
+	opacity: 0;
+	bottom: 5%;
+	right: 2.5%;
+	font-size: 3rem;
+	color: var(--clr-primary);
+	z-index: 99;
+	transition: all 0.3s linear;
+	animation: bounce 1.5s infinite ease alternate;
+	transform: translate(-100%, -100%);
+}
+
+/* 
+============
 NAV- SIDE MENU styles
 ============
 */
@@ -269,7 +289,7 @@ HEADER styles
 .header {
 	min-height: 100vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url(/images/main-bcg.jpeg) center/cover no-repeat fixed;
+		url(../images/main-bcg.jpeg) center/cover no-repeat fixed;
 	position: relative;
 	/* animation */
 	overflow-x: hidden;
