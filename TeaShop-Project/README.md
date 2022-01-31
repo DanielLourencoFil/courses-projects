@@ -7,8 +7,6 @@ Here I preset my own version of the code developed by the instructor. I coded be
 Author
 Daniel Lourenço: @DanielLourencoFil (https://github.com/DanielLourencoFil)
 
-View website
-
-https://tea-shop-case-03.netlify.app/
+[View website](https://tea-shop-case-03.netlify.app/)
 
 Thanks to visiting me and good coding!
